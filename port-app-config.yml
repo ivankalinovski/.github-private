@@ -6,8 +6,8 @@ resources:
       entity:
         mappings:
           identifier: .name
-          title: .name + (.id|tostring)
-          blueprint: '"service2"'
+          title: .name +  (.id|tostring)
+          blueprint: '"service"'
           properties:
             readme: file://README.md
             url: .html_url
