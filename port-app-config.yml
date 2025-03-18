@@ -7,7 +7,7 @@ resources:
         mappings:
           identifier: .name
           title: .name + (.id|tostring)
-          blueprint: '"service3"'
+          blueprint: '"service"'
           properties:
             readme: file://README.md
             url: .html_url
