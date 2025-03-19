@@ -18,7 +18,7 @@ resources:
     port:
       entity:
         mappings:
-          identifier: .head.repo.name + (.id|tostring)
+          identifier: .head.repo.name + (.id|tostring) 
           title: .title
           blueprint: '"githubPullRequest"'
           properties:
