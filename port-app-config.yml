@@ -5,7 +5,7 @@ resources:
     port:
       entity:
         mappings:
-          identifier: .name 
+          identifier: .name
           title: .name + (.id|tostring) 
           blueprint: '"service"'
           properties:
